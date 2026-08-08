@@ -187,26 +187,13 @@ body {
 ========================= */
 
 .button {
-
     width: 100%;
-
-    padding: 15px;
-
-    margin-top: 15px;
-
-    border: none;
-
-    border-radius: 8px;
-
-    background: #2672ff;
-
-    color: white;
-
-    font-size: 16px;
-
-    font-weight: bold;
-
-    cursor: pointer;
+    max-width: 400px;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    display: block;
+    margin: 12px auto;
+    text-align: center;
 }
 
 .button:hover {
